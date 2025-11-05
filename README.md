@@ -12,13 +12,15 @@ Dans le dossier vous trouverez 3 fichiers :
 
 #### 1. Maquettage
 
-Concevoir la maquette de votre site en mode zoning
+Concevoir les maquettes (écran, tablette, smartphone ) de votre site en mode zoning + wireframe
 
 #### 2. HTML
 ---
 
 - Concevoir les pages HTML qui nous permettra de visualiser un tableau avec toutes les informations des films.
+  
 - Concevoir un formulaire nous permettant d'ajouter un film dans la liste pour la première page, puis dans la seconde le formulaire nous permettra d'afficher les films trouvés via l'API
+  
 - Plus, un champ de sélection afin de filtrer les films par leur titre ou par leur année
 
 
@@ -26,8 +28,8 @@ Concevoir la maquette de votre site en mode zoning
 ---
 
 - Votre site devra avoir l'apparence d'un site (cinéma, vidéoclub ...)
-- Pour la mise en forme, vous utiliserez un Framework CSS (Bootstrap, Tailwin, piqueniquecss, bulmaCss)  ou utiliser votre propre CSS. (SASS)
-- Votre page devra être responsive en format écran, tablette et smartphone
+- Pour la mise en forme, vous utiliserez un Framework CSS (Bootstrap, Tailwin, piqueniquecss, bulmaCss...)  ou utiliser votre propre CSS. (SASS)
+- Votre page devra être responsive en format écran (1200px), tablette (768px) et smartphone (<576px )
 
 
 #### 4. JavaScript
@@ -39,11 +41,11 @@ Vous allez devoir concevoir 2 script JavaScript sur deux pages différentes.
 ### Page Vidéothéque
 ---
 
-- Dans le fichier *app.js* vous trouverez un tableau d'objets avec 4 valeurs qui sera votre base de données à afficher lors de l'ouverture de votre page HTML.
+- Dans le fichier **_app.js_** vous trouverez un tableau d'objets avec 4 valeurs qui sera votre base de données à afficher lors de l'ouverture de votre page HTML.
 - Aucun script ou attribut JavaScript dois être présent dans le fichier HTML !
 - Tâche à accomplir :
     - [ ] Afficher les films dans un tableau
-    - [ ] Créer un bouton *"Ajouter"* qui nous fera apparaître un formulaire
+    - [ ] Créer un bouton **"Ajouter"** qui nous fera apparaître un formulaire
         - Une zone de saisie pour le titre
         - Une zone de saisie pour l'année
         - Une zone de saisie pour l'auteur
@@ -76,7 +78,7 @@ Aucun script ou attribut JavaScript dois être présent dans le fichier HTML !
     - [ ] Une zone de saisie pour le titre
     - [ ] Une zone de saisie pour l'année
     - [ ] Un sélecteur pour le type (film, épisode, séries, saison)
-  - [ ] Faire la recherche via OMDB avec les données de l'utilisateur 
+  - [ ] Faire la recherche via OMDB avec les données de l'utilisateur et veuillez a optimiser votre recherche.
   - [ ] Afficher les différents résultats avec :
     - [ ] Le poster du film (si disponible)
       - Sinon afficher une image importé
