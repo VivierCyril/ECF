@@ -100,7 +100,18 @@ Vous travaillerez avec Git tout au long de cette ECF et déposerez votre travail
 ---
 #### API 
 - [omdb](https://www.omdbapi.com/)
+  
+#### Framework CSS
 
+- [Foundation](https://foundation.zurb.com/)
+- [Bulma](https://bulma.io/)
+- [Semantic](https://semantic-ui.com/)
+- [Materialize](http://materializecss.com/)
+- [KNACSS](https://knacss.com/)
+- [MaterialUI](http://www.material-ui.com/#/)
+- [Tailwind](https://tailwindcss.com/)
+- [UnoCSS](https://unocss.dev/)
+  
 #### Doc JavaScript
 - [Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 - [Create Elements](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
